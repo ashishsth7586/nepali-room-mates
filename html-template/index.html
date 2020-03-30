@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nepali Roommates</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+</head>
+<body class="">
+<div class="site_wrapper">
+    <!-- Header Menu Area -->
+    <header class="header-area">
+        <div class="main-menu overlay" id="mainNav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and Toggle get grouped for better mobile display -->
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>   
+                    </button>
+
+                    <!-- Collect the Navigation Links, and other content for Toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav m-l-auto">
+                            <li class="nav-item"><a class="nav-link nav-link-ltr">Host a room</a></li>
+                            <li class="nav-item"><a class="nav-link nav-link-ltr">Rent a room</a></li>
+                            <li class="nav-item"><a class="nav-link nav-link-ltr">Register</a></li>
+                            <li class="nav-item"><a class="nav-link nav-link-ltr">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>        
+    </header>
+
+    <!-- Banner Area -->
+    <section class="banner-wrapper overlay" style="background-image: url('./images/banner.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="banner-content m-t-120 m-b-100 p-rl-20 p-tb-40">
+                        <div class="banner-text">
+                            <h1 class="fs-35 lh-10 m-b-20">Book your stay and explore new places</h1>
+                        </div>
+                        <div class="banner-form">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <div class="input-prepend input-group">
+                                            <input type="text" name="destination" id="destination" class="form-control" placeholder="where do you want to travel?">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <div class="input-prepend input-group">
+                                            <input type="text" name="reservation" id="reservation" class="form-control" placeholder="Checkin-Checkout"> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <div class="input-prepend input-group">
+                                            <input type="text" name="guest" id="guest" class="form-control" placeholder="Guest">
+                                        </div>
+                                    </div>          
+                                </div>
+                                <div class="button-submit text-right m-t-25">
+                                    <button class="btn btn-lg btn-primary" type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 banner-logo-column">
+                    <div class="banner-logo text-center">
+                        <img src="images/banner-logo.png">                        
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- Find your stay -->
+    <section class="find-your-stay-wrapper">
+        <div class="container">
+            <div class="find-inner-wrapper p-tb-40">
+                <div class="section-heading">
+                    <h1>Find your stay</h1>
+                    <p>Finding rooms with traditional value is easy with nepaliroommates.com</p>
+                </div>
+
+                <div class="row row-eq-height m-t-20">
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                               
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/person1.jpg" alt="avatar">
+                                        </div>
+                                        <div class="rating-wrapper">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>4.89</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-3.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-1.jpg">
+                                </div>                                
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/avatar.jpg" alt="avatar">
+                                        </div>
+                                        <div class="rating-wrapper">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>4.89</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                                
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/person3.jpg" alt="avatar">
+                                        </div>
+                                        <div class="rating-wrapper">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>4.89</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="show-more">
+                    <a href="#">Show More</a>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Earn Money Home Away -->
+    <section class="earn-money-wrapper">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-md-6">
+                    <div class="content-wrapper-host overlay-host" style="background-image: url('./images/hotelimage-1.jpg');">
+                        <div class="content-inner-host">
+                            <div class="content-text-host">
+                                <h1>Earn Money</h1>
+                                <p>use your spare room to become a host and make money</p>                         
+                            </div>
+                            <div class="host-now">
+                                <a href="#">Host Now</a>                            
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="content-wrapper-book overlay-book" style="background-image: url('./images/hotelimage-1.jpg');">
+                        <div class="content-inner-book">
+                            <div class="content-text-book">
+                                <h1>Home away home</h1>
+                                <p>Finding rooms with traidional value is easy with nepaliroommates</p>                         
+                            </div>
+                            <div class="book-now">
+                                <a href="#">Book Now</a>                            
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Stay -->
+    <section class="find-your-stay-wrapper">
+        <div class="container">
+            <div class="find-inner-wrapper p-tb-40">
+                <div class="section-heading">
+                    <h1>Home stay</h1>
+                    <p>Finding rooms with traditional value is easy with nepaliroommates.com</p>
+                </div>
+
+                <div class="row row-eq-height m-t-20">
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                                
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/avatar.jpg" alt="avatar">
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                                
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/person2.jpg" alt="avatar">
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                              
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/person3.jpg" alt="avatar">
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="show-more">
+                    <a href="#">Show More</a>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore New places -->
+    <section class="explore-new-places">
+        <div class="container">
+            <div class="explore-inner p-b-40">                
+                <div class="section-heading">
+                    <h1>Explore New Places</h1>
+                    <p>Finding rooms with traditional value is easy with nepaliroomates</p>
+                </div>
+
+                <div class="row row-eq-height m-t-20">
+                    <div class="col-6 col-md-3">
+                        <div class="explore-card">
+                            <div class="explore-image">
+                                <img src="images/kathmandu.jpg">
+                            </div>
+                            <div class="explore-caption">
+                                <p class="explore-place">Kathmandu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="explore-card">
+                            <div class="explore-image">
+                                <img src="images/pokhara.jpg">
+                            </div>
+                            <div class="explore-caption">
+                                <p class="explore-place">Pokhara</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="explore-card">
+                            <div class="explore-image">
+                                <img src="images/mustang.jpg">
+                            </div>
+                            <div class="explore-caption">
+                                <p class="explore-place">Mustang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="explore-card">
+                            <div class="explore-image">
+                                <img src="images/lumbini.jpg">
+                            </div>
+                            <div class="explore-caption">
+                                <p class="explore-place">Lumbini</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-more">
+                    <a href="#">Show More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="footer-inner">                
+                <div class="footer-nav">
+                    <div class="footer-nav-inner">
+                        <div class="row">
+                            <div class="col-md-2"></div>    
+                            <div class="col-3 col-md-2">
+                                <h2>Nepali Roommates</h2>
+                                <ul>
+                                    <li><a href="$">Careers</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="$">Policies</a></li>
+                                    <li><a href="#">Accessbiilty</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <h2>Discover</h2>
+                                <ul>
+                                    <li><a href="$">Gift Cards</a></li>
+                                    <li><a href="#">Trust & Safety</a></li>
+                                    <li><a href="$">Things to do</a></li>
+                                    <li><a href="#">Travel Credit</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <h2>Hosting</h2>
+                                <ul>
+                                    <li><a href="$">Why host?</a></li>
+                                    <li><a href="#">Hospitality</a></li>
+                                    <li><a href="$">Responsible Hosting</a></li>
+                                    <li><a href="#">Community Center</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <h2>Support</h2>
+                                <ul>
+                                    <li><a href="$">Help</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="$">Q&A</a></li>
+                                </ul>
+                            </div>   
+                            <div class="col-md-2"></div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="footer-content-left text-left">
+                    <img src="images/footer-logo.png" alt="small logo">
+                    <span>&copy; 2020 nepaliroommates<sup>TM</sup>.</span>
+                    <span>All Rights Reserved</span>
+                    <span>Temrs . Privacy</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+<script type="text/javascript" src="assets/vendors/daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="assets/vendors/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript">
+$('#reservation').daterangepicker({
+    "autoApply": true,
+}, function(start, end, label) {
+  console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.carousel-slick-1').slick({
+  accessibility: true,
+  arrows: true,
+  fade: true,
+  mobileFirst: true,
+  pauseOnHover: true,
+  swipe: false,
+
+  });
+});
+</script>
+</html>

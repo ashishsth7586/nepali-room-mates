@@ -1,0 +1,31 @@
+.slick-prev {
+	left: 20px !important;
+	z-index: 100;
+	visibility: hidden;
+}
+.slick-next {
+	right: 20px !important;
+	visibility: hidden;
+}
+.slick-dots {
+	bottom: 10px !important;
+}
+.slick-dots li {
+	margin: 0 !important;
+}
+.slick-dots li button:hover {
+	color: #fff !important;
+}
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+    outline: none;
+}
+.slick-slide:focus {
+	outline: none;
+}

@@ -1,0 +1,93 @@
+/*
+@File: Default Styles
+@Author: Nepali Roommates
+@URL: https://nepaliroommates.com
+Author Email: nepaliroommates@gmail.com
+
+This file contains the styling for the actual theme,
+this is the file you need to edit to change the look 
+of the theme
+
+*/
+
+/*
+=====================================================
+
+Table of Content:
+01.  Variables
+02.  Default Styles / Reset Elements & Utils
+03.  Header
+04.  Pages:
+        a. Landing
+              i. Banner
+              ii. Find your Stay
+              iii. Earn Money
+              iv. Home Stay (Repeated as Find your stay)
+              v. Explore New Places
+        b. Product Detail Page 
+              i. Details
+              ii. Images
+              iii. Recommendation
+
+00--- Last Responsive Design
+
+=====================================================
+*/
+
+/* Variables*/
+@import './components/utilities/_variables.less';
+
+/* Default Styles and Reset Elements */
+@import './components/utilities/_reset.less';
+@import './components/utilities/_utils.less';
+
+/* Header */
+@import './components/_header.less';
+
+
+/*
+============= Page: Landing ==========================
+*/
+@import './components/pages/landing/_banner.less';
+@import './components/pages/landing/_findyourstay.less';
+@import './components/pages/landing/_earnhome.less';
+@import './components/pages/landing/_explorenew.less';
+
+
+/*
+============= Page: Product Detail ===================
+*/
+@import './components/pages/product-detail/_details.less';
+@import './components/pages/product-detail/_product-images.less';
+@import './components/pages/product-detail/_product-recommendation.less';
+
+
+
+@import './components/_footer.less';
+
+
+@import './components/_responsive.less';
+
+.carousel-fade .carousel-inner .carousel-item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
