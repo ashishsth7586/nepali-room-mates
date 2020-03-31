@@ -7,13 +7,15 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 </head>
 <body>
-<div class="site-wrapper" style="height: 2550px;">
+<div class="site-wrapper">
     <!-- Header Menu Area Second -->
     <header class="header-area-two">
         <div class="main-menu overlay" id="mainNav">
@@ -47,14 +49,16 @@
     		<div class="row">
     			<div class="col-md-6">
     				<div class="details-wrapper">
-    					<div class="row">
-    						<div class="col-md-6 col-6 text-left">
-    							<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><span class="location">Patan Durbar Square</span>
-    						</div>
-    						<div class="col-md-6 col-6 text-right">
-    							<a class="book-now">Book Now</a>
-    						</div>
-    					</div>
+                        <div class="product-location">
+        					<div class="row">
+        						<div class="col-md-6 col-7 text-left">
+        							<i class="fa fa-map-marker location-marker" aria-hidden="true"></i><span class="location">Patan Durbar Square</span>
+        						</div>
+        						<div class="col-md-6 col-5 text-right">
+        							<a class="book-now">Book Now</a>
+        						</div>
+        					</div>                            
+                        </div>
 
     					<div class="product-title">
     						<h1>Authentic Newari Room in the side street of Patan</h1>
@@ -62,17 +66,22 @@
 
                         <div class="product-type-rating">
                             <div class="row">
-                                <div class="col-md-8 text-left">
-                                    <p><span>Entire Guest House</span>-<span>4 beds</span>-<span>2 bathroom</span></p>
+                                <div class="col-md-8 col-9 text-left">
+                                    <div class="product-number">
+                                        <p><span>Entire Guest House</span> - <span>4 B</span> - <span>2 BR</span></p>
+                                    </div>
                                 </div>    
-                                <div class="col-md-4 text-right">
-                                    <p><i class="fa fa-star"></i><span>4.9</span></p>
+                                <div class="col-md-4 col-3 text-right">
+                                    <div class="product-rating">
+                                        <p><i class="fa fa-star"></i><span>4.9</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="product-description">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged... <span class="read-more"><a href="#">read-more</a></span></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span class="more-text" id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <button onclick="myFunction()" class="read-more" id="myBtn">read more</button>
                         </div>
                         <div class="amenities-wrapper">
                             <div class="heading-text">
@@ -80,28 +89,28 @@
                             </div>
                             <div class="amenities-list">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-wifi" aria-hidden="true"></i><span>Wifi</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-plane" aria-hidden="true"></i><span>Airport Shuttle</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-leanpub" aria-hidden="true"></i><span>Laundry</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-server" aria-hidden="true"></i><span>Room Service</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-wifi" aria-hidden="true"></i><span>No Smoking</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-wifi" aria-hidden="true"></i><span>Terrace</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-wifi" aria-hidden="true"></i><span>Restaurant</span></p>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-6">
                                         <p><i class="fa fa-wifi" aria-hidden="true"></i><span>ATM on site</span></p>
                                     </div>
                                 </div>
@@ -113,7 +122,7 @@
                                 <h1>Location</h1>
                             </div>
                             <div class="google-map-embbed">
-                                <img src="https://picsum.photos/400/200" style="width: 100%;">
+                                <img src="images/map.jpg" style="width: 100%;">
                             </div>
                         </div>
 
@@ -121,49 +130,282 @@
                             <div class="heading-text">
                                 <h1>Know your host</h1>
                             </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <img src="https://picsum.photos/500/600" style="width: 100%">
-                                    <div class="profile-name text-center">
-                                        <p>Ram</p>
+                            <div class="host-details">
+                                <div class="row">
+                                    <div class="col-md-5 col-5 host-image-column">
+                                        <div class="host-image-wrapper text-center">
+                                            <img src="images/avatar.jpg">   
+                                            <div class="host-name">
+                                                <p>Ram Kumar</p>
+                                            </div>                     
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="heading-text">
-                                        <h1>About Me</h1>
+                                    <div class="pl-0 col-md-7 col-7">
+                                        <div class="about-wrapper">
+                                            <div class="heading-text">
+                                                <h1>About Me</h1>
+                                            </div>
+                                            <div class="description">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="about-dots">...</span><span class="about-more-text" id="about-more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.</span></p>
+                                                <button onclick="aboutReadMore()" class="read-more" id="about-more-button">read more</button>
+                                            </div>
+                                            <div class="joined-date">
+                                                <p>Joined in <span class="date">March 14</span></p>
+                                            </div>
+                                            <div class="contact-button">
+                                                <a href="#">Contact</a>
+                                            </div>                                            
+                                        </div>
                                     </div>
-                                    <div class="description">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of t... <span class="read-more">read more</span></p>
-                                    </div>
-                                    <div class="joined-date">
-                                        <p>Joined in <span class="date">March 14</span></p>
-                                    </div>
-                                    <div class="contact-button">
-                                        <a href="#">Contact</a>
-                                    </div>
-                                </div>
+                                </div>                                
                             </div>
                         </div>
 
-                        <div class="rules">
+                        <div class="rules-wrapper">
+                            <div class="heading-text">
+                                <h1>House rules</h1>
+                            </div>
                             <p>The host has set some house rules, which you'll be asked to agree to when you book.</p>
-                            <ul>
+                            <ul class="rules-list">
                                 <li>Check-in: After 2:00 PM</li>
                                 <li>Checkout: 10:00 AM</li>
                             </ul>
-                            <p><a href="#">read all rules</a></p>
                         </div>
     				</div>
     			</div>
     			<div class="col-md-6">
-    				Images Here
+                    <div class="image-gallery-wrapper">
+                        Image Gallery Here
+                    </div>
     			</div>
     		</div>
     	</div>
     </section>
+
+    <section class="recommendation-wrapper">
+        <div class="container">
+            <div class="find-inner-wrapper">
+                <div class="section-heading">
+                    <h1>Room like this</h1>
+                    <p>Finding rooms with traditional value is easy with nepaliroommates.com</p>
+                </div>
+
+                <div class="row row-eq-height m-t-20">
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                               
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/person1.jpg" alt="avatar">
+                                        </div>
+                                        <div class="rating-wrapper">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>4.89</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-3.jpg">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-1.jpg">
+                                </div>                                
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/avatar.jpg" alt="avatar">
+                                        </div>
+                                        <div class="rating-wrapper">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>4.89</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="find-card-wrapper">
+                            <div class="find-card-carousel">
+                                <div class="carousel-slick-1">
+                                    <img src="images/hotelimage-2.jpg">
+                                    <img src="images/hotelimage-1.jpg">
+                                    <img src="images/hotelimage-3.jpg">
+                                </div>                                
+                            </div>
+                            <div class="find-card-footer">
+                                <div class="row">
+                                    <div class="col-8 col-md-8">
+                                        <p class="availability">Available Now</p>
+                                        <p class="beds-number">Entire Guest House - 4 beds</p>
+                                        <h1 class="place-title"><a href="#">Very Long Room Name This is home</a></h1>
+                                        <p class="place-price"><span>Rs.2500</span>/night</p>
+                                        <p class="place-category">Temple House</p>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="avatar-wrapper">
+                                            <img class="avatar" src="images/person3.jpg" alt="avatar">
+                                        </div>
+                                        <div class="rating-wrapper">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span>4.89</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="show-more">
+                    <a href="#">Show More</a>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="footer-inner">                
+                <div class="footer-nav">
+                    <div class="footer-nav-inner">
+                        <div class="row">
+                            <div class="col-md-2"></div>    
+                            <div class="col-3 col-md-2">
+                                <h2>Nepali Roommates</h2>
+                                <ul>
+                                    <li><a href="$">Careers</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="$">Policies</a></li>
+                                    <li><a href="#">Accessbiilty</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <h2>Discover</h2>
+                                <ul>
+                                    <li><a href="$">Gift Cards</a></li>
+                                    <li><a href="#">Trust & Safety</a></li>
+                                    <li><a href="$">Things to do</a></li>
+                                    <li><a href="#">Travel Credit</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <h2>Hosting</h2>
+                                <ul>
+                                    <li><a href="$">Why host?</a></li>
+                                    <li><a href="#">Hospitality</a></li>
+                                    <li><a href="$">Responsible Hosting</a></li>
+                                    <li><a href="#">Community Center</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <h2>Support</h2>
+                                <ul>
+                                    <li><a href="$">Help</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="$">Q&A</a></li>
+                                </ul>
+                            </div>   
+                            <div class="col-md-2"></div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="footer-content-left text-left">
+                    <img src="images/footer-logo.png" alt="small logo">
+                    <span>&copy; 2020 nepaliroommates<sup>TM</sup>.</span>
+                    <span>All Rights Reserved</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/vendors/slick/slick.min.js"></script>
 <script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript">
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+<script type="text/javascript">
+    function aboutReadMore() {
+      var dots = document.getElementById("about-dots");
+      var moreText = document.getElementById("about-more");
+      var btnText = document.getElementById("about-more-button");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.carousel-slick-1').slick({
+  accessibility: true,
+  arrows: true,
+  fade: true,
+  mobileFirst: true,
+  pauseOnHover: true,
+  swipe: false,
+
+  });
+});
+</script>
 </html>

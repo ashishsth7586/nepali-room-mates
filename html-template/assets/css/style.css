@@ -8689,7 +8689,7 @@ Table of Content
   transition: background 0.3s, all 0.2s linear;
 }
 .header-area-two .main-menu .navbar {
-  background: transparent;
+  background: #ffffff;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -9036,6 +9036,250 @@ Table of Content
 /*
 ============= Page: Product Detail ===================
 */
+.product-detail-wrapper .details-wrapper .product-location {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .product-location .location-marker {
+  color: #0080ff;
+  margin: 0 5px 0 0;
+  font-size: 22px;
+}
+.product-detail-wrapper .details-wrapper .product-location .location {
+  color: #0080ff;
+  font-size: 13px;
+  line-height: 18px;
+}
+.product-detail-wrapper .details-wrapper .product-location a.book-now {
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #0080ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.product-detail-wrapper .details-wrapper .product-title {
+  margin: 25px 0 10px 0;
+}
+.product-detail-wrapper .details-wrapper .product-title h1 {
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  line-height: 25px;
+}
+.product-detail-wrapper .details-wrapper .product-type-rating {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .product-type-rating .product-number p {
+  font-size: 13px;
+}
+.product-detail-wrapper .details-wrapper .product-type-rating .product-rating p i {
+  font-size: 14x;
+  color: #fdcc0d;
+  padding-right: 5px;
+}
+.product-detail-wrapper .details-wrapper .product-description {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .product-description p {
+  font-size: 14px;
+}
+.product-detail-wrapper .details-wrapper .product-description p .more-text {
+  display: none;
+}
+.product-detail-wrapper .details-wrapper .product-description .read-more {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.product-detail-wrapper .details-wrapper .amenities-wrapper {
+  margin: 25px 0 10px 0;
+}
+.product-detail-wrapper .details-wrapper .amenities-wrapper .heading-text h1 {
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+}
+.product-detail-wrapper .details-wrapper .amenities-wrapper .amenities-list {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .amenities-wrapper .amenities-list p {
+  padding-bottom: 5px;
+}
+.product-detail-wrapper .details-wrapper .amenities-wrapper .amenities-list p li {
+  font-size: 12px;
+  padding-right: 5px;
+}
+.product-detail-wrapper .details-wrapper .amenities-wrapper .amenities-list p span {
+  font-size: 13px;
+  padding-left: 5px;
+}
+.product-detail-wrapper .details-wrapper .location-wrapper {
+  margin: 25px 0 10px 0;
+}
+.product-detail-wrapper .details-wrapper .location-wrapper .heading-text h1 {
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+}
+.product-detail-wrapper .details-wrapper .location-wrapper .google-map-embbed {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .know-your-host {
+  margin: 25px 0 10px 0;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .heading-text h1 {
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .host-image-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .host-image-column .host-image-wrapper {
+  width: 100%;
+  max-height: 280px;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .host-image-column .host-image-wrapper img {
+  width: 100%;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .host-image-column .host-image-wrapper .host-name p {
+  margin: 5px 0 0 0;
+  font-weight: bold;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .heading-text h1 {
+  font-weight: 800;
+  color: #000000;
+  font-size: 18px;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .description p {
+  font-size: 13px;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .description p .about-more-text {
+  display: none;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .description .read-more {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .joined-date {
+  margin: 5px 0;
+  padding-bottom: 5px;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .joined-date p {
+  font-size: 13px;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .contact-button {
+  margin: 10px 0;
+}
+.product-detail-wrapper .details-wrapper .know-your-host .host-details .about-wrapper .contact-button a {
+  border: 1px solid #000000;
+  padding: 8px 18px;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+}
+.product-detail-wrapper .details-wrapper .rules-wrapper {
+  margin: 25px 0 10px 0;
+}
+.product-detail-wrapper .details-wrapper .rules-wrapper .heading-text h1 {
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+}
+.product-detail-wrapper .details-wrapper .rules-wrapper p {
+  font-size: 14px;
+}
+.product-detail-wrapper .details-wrapper .rules-wrapper ul li {
+  font-size: 13px;
+}
+.recommendation-wrapper .find-inner-wrapper {
+  margin: 10px 0 25px 0;
+}
+.recommendation-wrapper .find-inner-wrapper .section-heading {
+  margin-bottom: 10px;
+}
+.recommendation-wrapper .find-inner-wrapper .section-heading h1 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.recommendation-wrapper .find-inner-wrapper .section-heading p {
+  font-size: 12px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-carousel .carousel-slick-1 img {
+  border-radius: 30px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-carousel:hover .slick-prev {
+  visibility: visible;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-carousel:hover .slick-next {
+  visibility: visible;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer {
+  padding: 5px 10px;
+  position: relative;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer p.availability {
+  color: #0080ff;
+  font-size: 10px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer p.beds-number {
+  color: #787878;
+  font-size: 10px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer h1.place-title {
+  font-weight: bold;
+  line-height: 16px;
+  margin: 5px 0;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer p.place-price span {
+  font-weight: bold;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer p.place-category {
+  font-size: 12px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer .avatar-wrapper {
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer .avatar-wrapper img.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer .rating-wrapper {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+  font-size: 12px;
+}
+.recommendation-wrapper .find-inner-wrapper .find-card-wrapper .find-card-footer .rating-wrapper i {
+  color: #fdcc0d;
+}
+.recommendation-wrapper .find-inner-wrapper .show-more {
+  margin: 10px 0;
+}
+.recommendation-wrapper .find-inner-wrapper .show-more a {
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
 .footer-wrapper .footer-inner {
   padding: 20px 0;
   margin: 0 auto;
