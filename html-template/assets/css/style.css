@@ -9354,6 +9354,130 @@ Table of Content
   color: #ffffff;
   font-weight: bold;
 }
+.hosting-steps {
+  margin: 20px 0;
+}
+.hosting-steps .hosting-steps-heading {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.hosting-steps .hosting-steps-heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.hosting-steps .hosting-steps-description .steps-wrapper {
+  text-align: center;
+}
+.hosting-steps .hosting-steps-description .steps-wrapper img {
+  width: 25%;
+  max-height: 200px;
+  margin: 0 0 10px 0;
+}
+.hosting-steps .hosting-steps-description .steps-wrapper .caption {
+  width: 95%;
+}
+.hosting-steps .hosting-steps-description .steps-wrapper .caption h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.hosting-steps .hosting-steps-description .steps-wrapper .caption p {
+  margin: 10px 0 0 0;
+}
+.backyouup {
+  margin: 20px 0;
+}
+.backyouup .backyouup-heading {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.backyouup .backyouup-heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.backyouup .back-paragraph-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backyouup .back-paragraph-column .back-paragraph {
+  widh: 100%;
+  max-width: none;
+}
+.backyouup .back-paragraph-column .back-paragraph p {
+  font-size: 14px;
+  padding: 0 0 10px 0;
+}
+.backyouup .back-paragraph-column .back-paragraph p:last-child {
+  padding: 0;
+}
+.backyouup .back-list-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backyouup .back-list-column .back-list {
+  width: 100%;
+  max-width: none;
+}
+.backyouup .back-list-column .back-list ul li {
+  line-height: 30px;
+}
+.backyouup .back-list-column .back-list ul li i {
+  padding-right: 10px;
+  color: #0080ff;
+  font-size: 18px;
+}
+.easy-payment {
+  margin: 20px 0;
+}
+.easy-payment .easy-payment-heading {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.easy-payment .easy-payment-heading h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.easy-payment .easy-payment-description {
+  text-align: center;
+}
+.easy-payment .easy-payment-description .payment-wrapper h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.easy-payment .easy-payment-description .payment-wrapper p {
+  margin: 10px 0 0 0;
+}
+.property-manager {
+  margin: 40px 0;
+}
+.property-manager img {
+  width: 100%;
+}
+.property-manager .inner-text-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.property-manager .inner-text-column .inner-text {
+  text-align: center;
+}
+.property-manager .inner-text-column .inner-text h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.property-manager .inner-text-column .inner-text p {
+  font-size: 16px;
+}
+.property-manager .inner-text-column .inner-text .learn-more {
+  margin: 20px 0 0 0;
+}
+.property-manager .inner-text-column .inner-text .learn-more button {
+  border-radius: 0;
+  padding: 10px 20px;
+}
 .footer-wrapper .footer-inner {
   padding: 20px 0;
   margin: 0 auto;
@@ -9482,6 +9606,48 @@ Table of Content
 @media (max-width: 540px) {
   .host-banner-content {
     width: 280px !important;
+  }
+  .hosting-steps .hosting-steps-heading h1 {
+    font-size: 30px !important;
+  }
+  .hosting-steps .hosting-steps-description .caption h1 {
+    font-size: 18px !important;
+  }
+  .hosting-steps .hosting-steps-description .caption p {
+    font-size: 13px;
+  }
+  .backyouup .backyouup-heading h1 {
+    font-size: 30px !important;
+  }
+  .backyouup .back-paragraph p {
+    font-size: 13px !important;
+  }
+  .backyouup .back-list {
+    margin-top: 10px;
+  }
+  .backyouup .back-list ul li {
+    font-size: 13px;
+  }
+  .easy-payment .easy-payment-heading h1 {
+    font-size: 30px !important;
+  }
+  .easy-payment .easy-payment-description .payment-wrapper {
+    margin-bottom: 10px;
+  }
+  .easy-payment .easy-payment-description .payment-wrapper h1 {
+    font-size: 18px !important;
+  }
+  .easy-payment .easy-payment-description .payment-wrapper p {
+    font-size: 13px;
+  }
+  .property-manager img {
+    margin-bottom: 10px;
+  }
+  .property-manager .inner-text h1 {
+    font-size: 18px !important;
+  }
+  .property-manager .inner-text p {
+    font-size: 13px !important;
   }
 }
 .carousel-fade .carousel-inner .carousel-item {
