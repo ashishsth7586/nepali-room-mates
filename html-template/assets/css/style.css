@@ -9478,6 +9478,108 @@ Table of Content
   border-radius: 0;
   padding: 10px 20px;
 }
+/*
+============= Page: Search Page ===================
+*/
+.search-filter-nav {
+  margin: 90px 0 30px 0;
+}
+.search-filter-nav .filter-nav ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+.search-filter-nav .filter-nav ul li a {
+  font-size: 13px;
+  color: #000000;
+}
+.search-filter-nav .filter-nav ul li a:hover {
+  text-decoration: underline;
+}
+.search-result .search-result-inner {
+  margin: 10px 0 25px 0;
+}
+.search-result .search-result-inner .section-heading {
+  margin-bottom: 10px;
+}
+.search-result .search-result-inner .section-heading h1 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.search-result .search-result-inner .section-heading p {
+  font-size: 12px;
+}
+.search-result .search-result-inner .result-card-wrapper {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.search-result .search-result-inner .result-card-wrapper .find-card-carousel .carousel-slick-1 img {
+  border-radius: 30px;
+}
+.search-result .search-result-inner .result-card-wrapper .find-card-carousel:hover .slick-prev {
+  visibility: visible;
+}
+.search-result .search-result-inner .result-card-wrapper .find-card-carousel:hover .slick-next {
+  visibility: visible;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer {
+  padding: 5px 10px;
+  position: relative;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer p.availability {
+  color: #0080ff;
+  font-size: 10px;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer p.beds-number {
+  color: #787878;
+  font-size: 10px;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer h1.place-title {
+  font-weight: bold;
+  line-height: 16px;
+  margin: 5px 0;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer p.place-price span {
+  font-weight: bold;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer p.place-category {
+  font-size: 12px;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer .avatar-wrapper {
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer .avatar-wrapper img.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer .rating-wrapper {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+  font-size: 12px;
+}
+.search-result .search-result-inner .result-card-wrapper .result-card-footer .rating-wrapper i {
+  color: #fdcc0d;
+}
+.pagination-wrapper .pagination-nav ul li:first-child a {
+  border-radius: 50%;
+}
+.pagination-wrapper .pagination-nav ul li:last-child a {
+  border-radius: 50%;
+}
+.pagination-wrapper .pagination-nav ul li a {
+  border-radius: 50%;
+  color: #000000;
+  margin: 0 10px;
+}
+.pagination-wrapper .pagination-nav ul li a:hover {
+  background: #0080ff;
+  color: #ffffff;
+}
 .footer-wrapper .footer-inner {
   padding: 20px 0;
   margin: 0 auto;
